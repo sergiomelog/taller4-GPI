@@ -1,0 +1,21 @@
+flowchart LR
+
+subgraph Stage_I_Data_Input
+    A[Simulación de encuesta]
+    B[Datos crudos]
+    A --> B
+end
+
+subgraph Stage_II_Data_Processing
+    C[Limpieza de datos]
+    D[Transformaciones]
+    B --> C --> D
+end
+
+subgraph Stage_III_Data_Analysis
+    E[Estadísticas descriptivas]
+    F[Análisis exploratorio]
+    G[Modelo estadístico]
+    H[Resultados]
+    D --> E --> F --> G --> H
+end
