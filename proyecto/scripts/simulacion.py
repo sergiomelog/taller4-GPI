@@ -1,0 +1,1 @@
+# Análisis exploratorio: cálculo de promedio de productividad
